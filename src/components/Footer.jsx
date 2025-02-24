@@ -9,8 +9,8 @@ function Footer() {
                 <h1 className='-mt-[2vw] leading-none'>OPENING</h1>
             </div>
         </div>
-        <div className="flex justify-around px-8 py-2  border-t-[1px]  border-zinc-500">
-            <a href="https://instagram.com/">Instagram</a>
+        <div className="flex justify-around px-8 py-2  border-t-[1px]  border-zinc-800">
+            {/* <a href="https://instagram.com/">Instagram</a> */}
             <a href="https://linkedin.com/">LinkedIn</a>
             <a href="https://x.com/">Twitter</a>
             <a href="https://gmail.com/">Email</a>

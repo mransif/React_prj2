@@ -20,7 +20,7 @@ const locomotiveScroll = new LocomotiveScroll();
       <Landing/>
       <Marquee/>
       <About/>
-      {/* <Eyes/> */}
+      <Eyes/>
       <Features/>
       <Cards/>
       <Footer/>

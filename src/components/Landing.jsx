@@ -14,7 +14,7 @@ const Landing = () => {
               {index === 1 && (
                 <motion.div
                   initial={{ width: 0 }}
-                  animate={{ width: "9vw"}}
+                  animate={{ width: "13vw"}}
                   transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
                   className='w-[9vw] h-[6vw] relative top-[0.5vw] rounded-lg '>
                     <img src="https://c4.wallpaperflare.com/wallpaper/868/233/117/yggdrasil-loki-mcu-comics-nine-realms-hd-wallpaper-preview.jpg" alt="" />

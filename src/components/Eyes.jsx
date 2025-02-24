@@ -19,8 +19,8 @@ const Eyes = () => {
     })
 
     return (
-        <div className='w-full flex items-center justify-center bg-zinc-600 py-6'>
-            <div className='relative w-[35vw] h-[12vw] '>
+        <div className='w-full flex items-center justify-center  py-6'>
+            <div className='relative w-full h-10 mx-[100%] '>
                 <div className='bg-white absolute w-[10vw] h-[10vw] rounded-full top-1/2 left-[6vw] -translate-x-[50%] -translate-y-[50%]'>
                     <div className='bg-black absolute w-[6vw] h-[6vw] rounded-full top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
                         <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }}

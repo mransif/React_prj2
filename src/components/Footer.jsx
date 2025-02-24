@@ -9,11 +9,11 @@ function Footer() {
                 <h1 className='-mt-[2vw] leading-none'>OPENING</h1>
             </div>
         </div>
-        <div className="flex justify-between px-5 py-2 border-t-[1px] border-zinc-500">
-            <a href="">Instagram</a>
-            <a href="">LinkedIn</a>
-            <a href="">Twitter</a>
-            <a href="">Email</a>
+        <div className="flex justify-around px-8 py-2  border-t-[1px]  border-zinc-500">
+            <a href="https://instagram.com/">Instagram</a>
+            <a href="https://linkedin.com/">LinkedIn</a>
+            <a href="https://x.com/">Twitter</a>
+            <a href="https://gmail.com/">Email</a>
         </div>
     </div>
   )

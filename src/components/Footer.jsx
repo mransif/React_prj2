@@ -12,8 +12,8 @@ function Footer() {
         <div className="flex justify-around px-8 py-2  border-t-[1px]  border-zinc-800">
             <a href="https://instagram.com/">Instagram</a>
             <a href="https://linkedin.com/">LinkedIn</a>
-            <a href="https://x.com/">Twitter</a>
-            <a href="https://gmail.com/">Email</a>
+            {/* <a href="https://x.com/">Twitter</a>
+            <a href="https://gmail.com/">Email</a> */}
         </div>
 
         

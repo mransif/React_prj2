@@ -12,7 +12,13 @@ const Landing = () => {
           return <div key={index} className="masker">
             <div className='w-fit flex overflow-hidden'>
               {index === 1 && (
-               
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "13vw"}}
+                  transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
+                  className='w-[9.1vw] h-[6vw] relative top-[0.5vw] rounded-lg '>
+                    <img src="https://c4.wallpaperflare.com/wallpaper/868/233/117/yggdrasil-loki-mcu-comics-nine-realms-hd-wallpaper-preview.jpg" alt="" />
+                  </motion.div>
               )}
               <h1 className="uppercase text-[8vw] font-bold tracking-tighter h-full font-['Roboto'] leading-[7vw] ">{item}</h1>
             </div>

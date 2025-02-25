@@ -26,7 +26,7 @@ const Landing = () => {
         })}
 
       </div>
-      <div className='border-t-[1px] uppercase text-sm border-zinc-800 mt-[50px] flex items-center justify-between py-2 px-14'>
+      <div className='border-t-[1.1px] uppercase text-sm border-zinc-800 mt-[50px] flex items-center justify-between py-2 px-14'>
         {["For public and Private", "From the first"].map((item, index) => {
           return <p key={index}>{item}</p>
         })}
